@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Facebook</title>
+		<link rel="icon" href="./media/facebooklogo.png">
+		<link rel="stylesheet" href="facebook.css">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Catamaran:wght@100&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./css/all.css">
+	</head>
+	<body>
+		<header>
+			
+				<form>
+					<table>
+						<tr>
+							<td>
+								<label for="username">Email or phone</label><br>
+								<input type="text" name="username"><br><br>
+							</td>
+							<td>
+								<label for="password">Password</label><br>
+								<input type="password" name="password"><br>
+								<a href="#">Forgotten account?</a>
+							</td>
+							<td>
+								<input type="submit" value="Login">
+							</td>
+						</tr>
+					</table>
+				</form>
+				<h1>facebook</h1>
+		</header>
+		
+		<section class="m">
+		
+		<form>
+			<br>
+			<table>
+				<tr><td colspan="2"><h1>Create an account</h1></td></tr>
+				<tr><td colspan="2"><p>It's quick and easy.</p></td></tr>
+				<tr>
+					<td>
+						<input type="text" name="fname" placeholder="First name" required="required">
+					</td>
+					<td>
+						<input type="text" name="sname" placeholder="Surname">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="text" name="username" placeholder="Mobile number or email address" class="fulllength" required="required">
+					</td>
+				</tr>	
+				<tr>
+					<td colspan="2">
+						<input type="password" name="password" placeholder="New password" class="fulllength" required="required">
+					</td>
+				</tr>
+				<tr></tr>
+				<tr>
+					<td>
+						<label>Birthday</label><br>
+						<select name="days" id="days">
+							<option value="1">1</option>
+						</select>
+						<select name="mons" id="mons">
+							<option value="Jun">Jun</option>
+						</select>
+						</select>
+						<select name="yrs" id="yrs">
+							<option value="1994">1994</option>
+						</select>
+						<i class="fas fa-question-circle ques" ></i>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<label>Gender</label><br>
+						<input type="radio" name="gender" value="Female" onclick="nosele()"><label>Female</label>
+						<input type="radio" name="gender" value="Male" onclick="nosele()"><label>Male</label>
+						<input type="radio" name="gender" value="Custom" id="sel" onclick="sele()"><label id="sell">Custom</label>
+						<i class="fas fa-question-circle gend" ></i>
+					</td>
+				</tr>
+			</table>
+			
+			<table class="opl">
+				<tr>
+					<td id="prnn" style="display: none;" colspan="2">
+					<select name="pronoun" id="pronoun"  >
+							<option value=""></option>
+					</select>
+					
+					<p>Your pronoun is visible to everyone</p>
+					</td>
+				</tr>
+				<tr>
+					<td id="cgen" style="display: none;" colspan="2">
+						<input type="text" name="customgender" placeholder="Gender(Optional)" class="fulllength" required="required">
+					</td>
+				</tr>
+			</table>
+			<table id="final">
+				<tr>
+					<td colspan="2">
+						<p>
+							By clicking Sign Up,you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and<br>
+							<a href="#">Cookie Policy</a>.You may recieve SMS notifications from us and<br>
+							can opt at ant time.  
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Sign Up">
+					</td>
+				</tr>
+				<tr>
+					<td>
+					 <p style="margin-top: 25px;font-weight: bold; color: black;">
+					 	<a href="#">Create a page</a> for a celebrity,band or business
+					 </p>
+					</td>
+				</tr>				
+			</table>
+		</form>	
+		<p style="display: inline-block;
+				  color: #0D3960;
+				  font-size: 20px;
+				  font-weight: bold;">
+		Facebook help you connect and share with the<br>people in your life.</p>
+			
+		</section>
+		<section style="text-align: center;">
+			<a href="#" id="langs">English</a>
+			<a href="#" id="langs" style="font-family: 'Catamaran', sans-serif;">தமிழ்</a>
+			<a href="#" id="langs">മലയാളം</a>
+			<a href="#" id="langs">తెలుగు</a>
+			<a href="#" id="langs">मराठी</a>
+			<a href="#" id="langs">हिन्दी</a>
+			<button type="button">+</button>
+		</section>
+		<footer>
+			<p>Facebook &copy 2020</p>
+		</footer>
+		<script type="text/javascript" src="facebook.js"></script>
+	</body>
+</html>

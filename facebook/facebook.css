@@ -1,0 +1,187 @@
+@charset "ISO-8859-1";
+body{
+	margin: 0px;
+	font-family: Segoe UI;
+}
+input{
+	outline: none;
+}
+header{
+	background-color: #3B5999;
+	color: white;
+	border: 1px solid #18377A; 
+}
+header h1{
+	font-size: 40px;
+	padding : 0px;
+	margin: 0px;
+	display: inline-block;
+	padding: 10px 0;
+}	
+header table{
+	float: right;
+	display: inline-block;
+	position:relative;
+	top: 0px; 
+	font-size: 13px;
+}
+header td{
+	padding: 5px;
+	line-height: 20px;
+}
+header a{
+	color: #9BB3DA;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+header input[type="submit"] {
+	background-color: #4167B2;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #28497F;
+	padding: 3px 8px;
+}
+section.m{
+	width: 100%;
+	height: 590px;
+	background: linear-gradient(180deg,white,#D3D9E7);
+	font-family: Arial;
+}
+section table{
+	float: right;
+}
+section table h1{
+	margin: 0px;
+	font-size: 35px;
+}
+section table p{
+	margin:4px 0 15px;
+	font-size: 18px;
+	
+}
+button{
+	width: 40px;
+	font-size: 20px;
+	
+}
+section table td{
+	padding-right: 7px;
+}
+section input {
+	margin-top: 5px;
+	padding: 10px;
+	border : 1px solid #BFC7D4;
+	border-radius: 5px;
+	font-size: 16px;
+}
+section input.fulllength {
+	width: 95%;
+}
+section table label {
+	color: #8F939C;
+	display:inline-block;
+	margin-top:10px;
+	font-weight: bold;
+}
+section table select,option{
+	padding: 6px;
+	font-size: 15px;
+	outline: none;
+}
+section table select {
+	margin-top: 7px;
+	display: inline-block;
+	border: 1px solid #BFC7D4;
+}
+#days{
+	width: 56px;	
+}
+#mons{
+	width: 76px;
+}
+#yrs{
+	width: 71px;	
+}
+section table input[type="radio"] {
+	color: black;
+}
+section table input[type="radio"]+label {
+	color: black;
+	font-weight: normal;
+	font-size: 18px;
+}
+i{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	color: #A4A4A4;
+}
+i:hover{
+	color: black;
+}
+i.ques {
+	top: -10px;
+	left: 5px;
+}
+
+i.gend{
+	left: 10px;
+}
+#pronoun{
+	position: absolute;
+	float: right;
+}
+#pronoun{
+	width: 173%;
+}
+table.opl{
+	position: relative;
+	top: 378px;
+	right: -263px;
+}
+#pronoun~p{
+	font-size: 16px;
+	color: #8F939C;
+	margin-top: 45px;
+	margin-bottom: 2px;
+}
+#cgen{
+	width: 178%;
+}
+#final{
+	position: absolute;
+	top: 490px;
+	right: 75px;
+}
+#final p{
+	font-size: 14px;
+	color: #8F939C;
+	margin-top: -6px;
+	margin-bottom: 2px;
+}
+section input[type="submit"] {
+	background-color: #609D4D;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #28497F;
+	padding: 5px 45px;
+	margin-top: 20px;
+	text-shadow: 0 0 2px black;
+	font-size: 15px;
+}
+::placeholder{
+	color: #A4A4A4;
+}
+footer{
+	position : relative;
+	bottom: -72px;
+	margin: 0px;
+}
+footer p{
+	margin: 0px;
+	color: #A4A4A4;
+}
